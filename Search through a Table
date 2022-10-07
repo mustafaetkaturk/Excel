@@ -1,0 +1,16 @@
+In this one, I was working on an basic 13 by 2 table.
+
+Instruction was to use 2 different formulas to find the office location of any given employee.
+
+1st column was called Employees and 2nd column was called office location. So, Instruction wanted me to check first column for a match,
+and return corresponding data in the second column. It was basically a vertical look-up.
+
+In the first one I took the high road and used Match() formula to return the relative position of any given employee in a chosen table.
+So, I chose only the employee column and get the relative row number of any given employee. Then, I used Index() formula to return the 
+corresponding value in the chosen column, which is office location column. 
+
+=INDEX(C6:C18,MATCH(F6,B6:B18,0))	
+
+In the second one, I used VLOOKUP() formula. This is the easy one since we have established that It was basically a vertical look-up.
+
+=VLOOKUP(F11,B6:C18,2,FALSE)	
