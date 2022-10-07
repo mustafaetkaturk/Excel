@@ -1,0 +1,33 @@
+Instructions says Clean the raw data import and identify sales less than $300. And this is the given raw data:
+
+Squid Ward 1001 Honolulu Hawaii 301
+Sponge Bob 1002 Honolulu Hawaii 238
+Homer Simp 1003 Austin Texas 294
+Elon Musk 1004 Austin Texas 238
+Steve Jobs 1005 Irvine California 294
+Warren Buffet 1006 Chicago Illinois 308
+Charlie Munger 1007 Chicago Illinois 339.5
+Kevin Hart 1008 Philadelphia Pennsylvania 332.5
+Barrack Obama 1009 Tysons Virginia 318.5
+Bob Builder 1010 Tampa Florida 273
+Tom Hanks 1011 Miami Florida 252
+Michael Jordan 1012 Cleveland Ohio 346.5
+Thierry Henry 1013 Seattle Washington 339
+Eden Hazard 1014 Seattle Washington 308
+Andrea Pirlo 1016 Tysons Virginia 252
+
+The idea is that raw data needs to be transformed into table with the column names First Name, Last Name, ID Number, City, State and Sales Amount.
+This is another declarative tool of Excel. Many of the people who worked with CSV files would know this tool. This tool help you to translate raw data 
+into an excel table. 
+
+In this example, we choose the raw data; which should be in one non-merged column, and go to Data Tab and click on "Text to Columns". Choose Delimited,
+and go next. Then, as a delimeter we choose space then go next and choose where the end result should appear. Viola... Now we have our table and need to
+identify the sales amount with conditional formatting under Home Tab. 
+
+PS. I found this problem highly limited since we are dealing with people only with one first name and one last name or cities or states with one word.
+It could've been in the format like this:
+
+Squid,Emmanuel,Ward,1001,Honolulu,Hawaii,301
+Sponge,,Bob,1002,Honolulu,Hawaii,238
+
+PSS. Also, instead of asking identifying/conditionally formatting the sales only but all row with other data would have been better.
