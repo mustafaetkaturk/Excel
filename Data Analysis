@@ -1,0 +1,14 @@
+I have never used pivot table till now. Mainly, I do not like to work in Excel when I try to do analysis but excel is the cheapest tool to practice.
+I wish I'd know more when I was in high school. University would have been easier. 
+
+In this task, it asks us to Show by quarter - the quality sold, total sales, and avg sale price for the given data
+
+Choose all of the table given and go to Insert Tab and click on Pivot table. Choose output cell in existing worksheet.
+On the right side, click and slide Date field into Rows*. Then you will see under the section "Rows", Quarter, Year and Date will appear. Exclude Date now.
+Then click on "Purchase" field and slide into the section Values 3 times then click on the down arrow of those purchase fields under the Values Section to
+correct the details to be average, count and sum as it is requested. 
+
+One important detail is that the higher in the section list a field goes, the earlier it will be presented in pivot table. Meaning Quarters can be represented
+before years or the order of columns can be changed. 
+
+*If data in "Date" column are not recognized as a date. You might need to align the format. Otherwise, you will not be successful 
