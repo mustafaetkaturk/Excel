@@ -1,0 +1,15 @@
+In this question, it gave me an accounting challenge. It is a very neatly formulated table to calculate profit for a given number of sold products.
+However, the question is in reverse and asking how many should be the number to be equal to a profit of $10,000. 
+
+Least evolved version of the solution is that doing an educated guess to find a closest number and then, trying the numbers one by one to get closer to answer.
+This is far from ideal because technology is there for you to get faster easily.
+
+I mean, Excel has a declarative tool called "What-If Analysis" under Data Tab. With this tool, you can create scenarios, multiple input actions or goal seek
+For our question, we need to use goal seek. Goal seek will try the numbers automatically to find out the exact number to a decimal point. 
+
+Click on Goal Seek, 
+Set Cell          : C15     // Cell of Calculation of Profit
+To Value          : 10000   // Calculation of Profit should be $10,000
+By Changing Cell  : C11     // Cell of Number of Sold Products 
+
+Quickly, we learn that we need to sell ~2906 (2906.30086026506) products to acquire profit of $10,000.
